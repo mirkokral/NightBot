@@ -1,0 +1,24 @@
+{
+  "name": "nbot",
+  "version": "1.0.0",
+  "description": "This is a extensible minecraft bot made by mirkokral   It consists of three things in common:   - The main bot  - Plugins  - Commands <!-- end of the list --> Do `npm install` to install the nesseciary packages   \\- mirkokral",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirkokral/NightBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mirkokral/NightBot/issues"
+  },
+  "homepage": "https://github.com/mirkokral/NightBot#readme",
+  "dependencies": {
+    "minecraft-protocol": "^1.35.1",
+    "randomstring": "^1.2.2",
+    "yaml": "^2.1.1"
+  }
+}
