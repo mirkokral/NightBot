@@ -1,0 +1,13 @@
+prefix: ';'
+discord:
+  token: 'MTAwMjI3MzA2NDM2NjY0NTI3OA.GgWfQR.swC-gpdc-mEw20-oZa9KphKZKTEphacOAc7clQ'
+  channels:
+    ayunboom: '1002291990702084186'
+    kaboom: '1002292021526020107'
+servers:
+  - name: 'ayunboom'
+    host: 'sus.shhnowisnottheti.me'
+    port: 25565
+  - name: 'kaboom'
+    host: 'kaboom.pw'
+    port: 25565
