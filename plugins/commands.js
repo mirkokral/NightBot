@@ -2,6 +2,7 @@ bot.on('message', (msg) => {
     if(msg.toMotd().split('§r: §r')[0] && msg.toMotd().split('§r: §r')[1]){
         bot.emit('chat', msg.toMotd().split('§r: §r')[0].replace(/§([A-Z]|[a-z]|[0-9]|[#])/g,'').split(' ')[msg.toMotd().split('§r: §r')[0].replace(/§([A-Z]|[a-z]|[0-9])/g,'').split(' ').length-1], msg.toMotd().split('§r: §r')[1].replace(/§([A-Z]|[a-z]|[0-9])/g,''))
     }
+    bot.framebuffer.push({text: '\n' + msg.toMotd().replaceAll('§k','')})
 })
 bot.on('chat', (username,msg) => {
     console.log(`${username} > ${msg}`)

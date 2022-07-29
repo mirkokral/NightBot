@@ -13,7 +13,9 @@ function createBot(config){
     bot._client.on('position', (pos) => {bot.emit('pos',pos)})
     bot._client.on('chat', (msg) => {
         try{
-            bot.emit('message', new pchat(JSON.parse(msg.message)))
+            var message = new pchat(JSON.parse(msg.message))
+            if(message.toString().startsWith('Command set:')) return
+            bot.emit('message', message)
         } catch (e) {console.log(e)}
     })
     bot._client.on('login', (msg) => {

@@ -1,1 +1,0 @@
-bot.chat('Works, args: ' + args.join(', '))
