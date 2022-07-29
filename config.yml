@@ -8,6 +8,11 @@ servers:
   - name: 'ayunboom'
     host: 'sus.shhnowisnottheti.me'
     port: 25565
-  - name: 'kaboom'
-    host: 'kaboom.pw'
-    port: 25565
+eastereggs:
+  megabot: true
+  jsfu**: false
+plugins:
+  - "position.js"
+  - "core.js"
+  - "selfcare.js"
+  - "commands.js"
